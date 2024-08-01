@@ -1,0 +1,238 @@
+:root {
+  --color-primary: #57bd96;
+  --color-primary-500: #5cb898;
+
+  --color-violet: #717bd4;
+}
+
+.img-fluid {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.navbar .card-cart {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  background: var(--color-primary);
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+.navbar .nav-link {
+  color: #000 !important;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-16 {
+  font-size: 16px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #fff;
+}
+.carousel-indicators li.active {
+  background: none;
+  border: 1px solid #fff;
+}
+.carousel-inner .carousel-item img {
+  max-height: 500px;
+}
+
+#content .badge-detail {
+  position: absolute;
+  top: 35%;
+  right: 10px;
+  background: #fff;
+  padding: 10px;
+  border-left: 2px solid var(--color-primary);
+}
+#content .badge-detail .redirect button {
+  background: none;
+  border: none;
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+  padding: 5px 15px;
+  cursor: pointer;
+}
+#content .badge-detail .redirect button:focus {
+  outline: none;
+}
+#content .product-box {
+  height: 400px;
+}
+#content .product-box .header-product .line-bottom {
+  width: 70px;
+  height: 2px;
+  background: #000;
+  margin: auto;
+}
+#content .product-box .body-product .clild-product-img {
+  width: 70px;
+  height: 2px;
+  background: #000;
+  margin: auto;
+  width: 100%;
+  height: 240px;
+}
+#content .product-box .body-product .body-product-detail .product-name {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#content .product-box .body-product .body-product-detail .product-price {
+  font-weight: bold;
+  font-size: 12px;
+}
+#content .product-box .body-product .body-product-detail .product-rating {
+  color: var(--color-primary-500);
+  font-size: 12px;
+}
+.text-one-line {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#our-product .header-ourproduct .line-bottom {
+  width: 70px;
+  height: 2px;
+  background: #000;
+  margin: auto;
+}
+#our-product .header-ourproduct button {
+  background: var(--color-primary);
+  border: none;
+  font-size: 12px;
+  padding: 5px 15px;
+  color: #fff;
+  line-height: 20px;
+}
+#our-product .product-box {
+  display: flex;
+}
+#our-product .product-box .product-img {
+  width: 100%;
+  max-width: 150px;
+  margin-right: 10px;
+}
+#our-product .product-box .product-name {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#our-product .product-box .product-price {
+  font-size: 12px;
+}
+#our-product .product-box .product-rating {
+  color: var(--color-primary-500);
+  font-size: 12px;
+}
+
+#seo-theme {
+  background-image: url(../img/img.jpg);
+  height: 120px;
+  border-radius: 10px;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#blogs .header-ourproduct .line-bottom {
+  width: 70px;
+  height: 2px;
+  background: #000;
+  margin: auto;
+}
+#blogs .blog-box {
+  padding: 10px;
+}
+
+#blogs .blog-box .blog-child {
+  background: #f7f7f7;
+  padding-bottom: 10px;
+}
+#blogs .blog-box .blog-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#blogs .blog-box img {
+  margin-bottom: 10px;
+}
+
+#blogs .blog-box .blog-detail small {
+  font-size: 12px;
+  color: #cac6c3;
+  margin-bottom: 5px;
+}
+
+#blogs .blog-box .blog-detail strong {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+#blogs .blog-box button {
+  border: none;
+  background: #fff;
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+  font-size: 12px;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+
+#footer {
+  margin-top: 150px;
+  /* height: 300px; */
+  padding: 20px 0;
+  background: #f7f7f7;
+}
+
+#footer .contact-info .head {
+  font-size: 14px;
+}
+#footer .contact-info .info {
+  font-size: 14px;
+  color: #b9b8ba;
+}
+#footer .contact-info .info img {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  #our-product .product-box {
+    flex-direction: column;
+  }
+  #our-product .product-box .product-img {
+    width: 100%;
+    max-width: none;
+    margin-right: 10px;
+  }
+
+  .font-16 {
+    font-size: 14px;
+  }
+  .font-14 {
+    font-size: 12px;
+  }
+
+  .coppyright {
+    font-size: 12px;
+  }
+}
